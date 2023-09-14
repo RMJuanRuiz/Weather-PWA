@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "weather-pwa-f12cd": {
+      "hosting": {
+        "weather-app": [
+          "weather-pwa-f12cd"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "weather-pwa-f12cd"
+  }
+}

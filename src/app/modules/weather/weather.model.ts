@@ -14,6 +14,8 @@ export interface Weather {
   name: string;
 }
 
+export type Forecast = Weather & { dt_txt: Date };
+
 interface WeatherInfo {
   main: string;
   icon: string;
