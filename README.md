@@ -1,5 +1,17 @@
 # WeatherApp
 
+Progressive Web App built using Angular and Angular Material to show the current weather of a city and its forecast for the next 5 days.
+
+
+API used: https://openweathermap.org/
+
+Deployed in: https://weather-pwa-f12cd.web.app
+
+It will also notify users when there is an update in the application:
+![Screenshot 2023-09-14 at 5 00 27 PM](https://github.com/RMJuanRuiz/Weather-PWA/assets/49765252/2fbfe1e4-5473-4222-83f0-e99f94a7fe9e)
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
 
 ## Development server
