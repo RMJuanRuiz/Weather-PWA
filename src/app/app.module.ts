@@ -2,6 +2,7 @@ import { NgModule, isDevMode } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core/core.module';
@@ -18,6 +19,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
     HttpClientModule,
     CoreModule,
     WeatherModule,
+    MatSnackBarModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),
       // Register the ServiceWorker as soon as the application is stable
