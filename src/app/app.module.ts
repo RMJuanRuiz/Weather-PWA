@@ -5,7 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 import { AppComponent } from './app.component';
-import { CoreModule } from './core/core/core.module';
+import { CoreModule } from './core/core.module';
 import { WeatherModule } from './modules/weather/weather.module';
 import { ServiceWorkerModule } from '@angular/service-worker';
 
